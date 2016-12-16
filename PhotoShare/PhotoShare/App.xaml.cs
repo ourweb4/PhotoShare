@@ -13,7 +13,7 @@ namespace PhotoShare
         {
             InitializeComponent();
 
-            MainPage = new PhotoShare.MainPage();
+            MainPage = new NavigationPage( new MainPage());
         }
 
         protected override void OnStart()
